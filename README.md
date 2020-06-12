@@ -2,7 +2,7 @@
 	<img width="80" height="80" src="https://cdn.jsdelivr.net/gh/Tomotoes/images/blog/icon.png" alt="tomoto">
 	<br>
 	<h1>Scrcpy GUI</h1>
-	<sub>Built with ❤︎ by <a href="https://tomotoes.com">Simon Ma</a> - <a href="https://github.com/Hs0/scrcpy-gui/blob/master/README.zh_CN.md">中文文档</a><br>繁體中文化翻譯 by XXXF<a href="https://github.com/Hs0/scrcpy-gui/blob/master/README.zh_CN.md">繁體說明</a></sub>
+	<sub>Built with ❤︎ by <a href="https://tomotoes.com">Simon Ma</a> - <a href="https://github.com/Hs0/scrcpy-gui/blob/master/README.zh_CN.md">中文文档</a><br>繁體中文化翻譯 by XXXF<a href="https://github.com/Hs0/scrcpy-gui/blob/master/README.zh_TW.md">繁體說明</a></sub>
 </div>
 <hr/>
 <p align="center">✨ <strong>A simple & beautiful GUI application for scrcpy</strong></p>

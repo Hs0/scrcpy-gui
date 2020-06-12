@@ -409,7 +409,7 @@ export default {
 			this.$store.put("config", this.config);
 		},
 		changeLocale() {
-			localStorage.setItem("lang", this.$i18n.locale === "zh" ? "en" : "zh");
+			localStorage.setItem("lang", this.$i18n.locale === "zh_TW" ? "en" : "zh_TW":"zh");
 			window.tray.destroy();
 			window.location.reload();
 		}

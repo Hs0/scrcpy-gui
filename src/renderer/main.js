@@ -7,19 +7,20 @@ import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale'
 import _en from 'element-ui/lib/locale/lang/en'
 import _zh from 'element-ui/lib/locale/lang/zh-CN'
+import _zh_TW from 'element-ui/lib/locale/lang/zh-TW'
 
-const lang = localStorage.getItem('lang') || 'zh'
-locale.use(lang === 'en' ? _en : _zh)
+const lang = localStorage.getItem('lang') || 'zh_TW'
+locale.use(lang === 'en' ? _en : _zh_TW)
 
 Vue.use(ElementUI)
 
-import { en, zh } from './lang'
+import { en, zh,zh_TW } from './lang'
 import VueI18n from 'vue-i18n'
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-	locale: (localStorage.getItem('lang') || 'zh'),
-	messages: { zh, en }
+	locale: (localStorage.getItem('lang') || 'zh_TW'),
+	messages: { zh, zh_TW,en }
 })
 
 

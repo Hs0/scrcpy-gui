@@ -2,8 +2,7 @@
 	<img width="80" height="80" src="https://cdn.jsdelivr.net/gh/Tomotoes/images/blog/icon.png" alt="tomoto">
 	<br>
 	<h1>Scrcpy GUI</h1>
-	<sub>Built with ❤︎ by <a href="https://tomotoes.com">Simon Ma</a> - <a href="https://github.com/Tomotoes/scrcpy-gui">English document</a></sub>
-	<sub>Translated by XXXF</sub>
+	<sub>Built with ❤︎ by <a href="https://tomotoes.com">Simon Ma</a> - <a href="https://github.com/Hs0/scrcpy-gui">English document</a><br>Translated by XXXF</sub>
 </div>
 <hr/>
 <p align="center">✨ <strong>一個簡潔&漂亮的 scrcpy GUI 應用</strong></p>
@@ -232,8 +231,6 @@ npm run lint
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Tomotoes"><img src="https://avatars1.githubusercontent.com/u/32236122?s=460&v=4" width="100px;" alt="Tomotoes"/><br /><sub><b>Simon Ma</b></sub></a><br /><a href="https://github.com/Tomotoes/scrcpy-gui/commits?author=Tomotoes" title="Code">💻</a> <a href="https://tomotoes.com">🎨</a></td>
-  </tr>
-  <tr>
     <td align="center"><a href="https://github.com/Hs0"><img src="https://avatars2.githubusercontent.com/u/14960173?s=460&v=4" width="100px;" alt="XXXF"/><br /><sub><b>XXXF</b></sub></a><br />繁體中文化翻譯</td>
   </tr>  
 </table>

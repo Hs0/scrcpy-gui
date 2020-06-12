@@ -17,7 +17,7 @@ export default {
 		source: {
 			label: 'Scrcpy',
 			placeholder: 'Scrcpy資料夾路徑 - 例如: C:\\scrcpy-win64',
-			tooltip: '如果不設定，請將scrcpy資料夹路徑配置到環境變數'
+			tooltip: '如果不設定，請將scrcpy資料夾路徑配置到環境變數'
 		},
 		title: {
 			label: '視窗標題',

@@ -231,7 +231,7 @@ npm run lint
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Tomotoes"><img src="https://avatars1.githubusercontent.com/u/32236122?s=460&v=4" width="100px;" alt="Tomotoes"/><br /><sub><b>Simon Ma</b></sub></a><br /><a href="https://github.com/Tomotoes/scrcpy-gui/commits?author=Tomotoes" title="Code">💻</a> <a href="https://tomotoes.com">🎨</a></td>
-    <td align="center"><a href="https://github.com/Hs0"><img src="https://avatars2.githubusercontent.com/u/14960173?s=460&v=4" width="100px;" alt="XXXF"/><br /><sub><b>XXXF</b></sub></a><br />繁體中文化翻譯</td>
+    <td align="center"><a href="https://github.com/Hs0"><img src="https://avatars2.githubusercontent.com/u/14960173?s=460&v=4" width="100px;" alt="XXXF"/><br /><sub><b>XXXF(Hs0)</b></sub></a><br />繁體中文化翻譯</td>
   </tr>  
 </table>
 

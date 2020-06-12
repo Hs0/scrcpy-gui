@@ -37,9 +37,9 @@ export default (vue) => (tray, ...items) => {
 	})
 	submenu.push(
 		{
-			label: '中文',
+			label: '繁體中文',
 			click: () => {
-				localStorage.setItem('lang', 'zh')
+				localStorage.setItem('lang', 'zh_TW')
 				tray.destroy()
 				window.location.reload()
 			}

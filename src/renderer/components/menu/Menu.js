@@ -44,6 +44,15 @@ export default (vue) => (tray, ...items) => {
 				window.location.reload()
 			}
 		})
+		submenu.push(
+		{
+			label: '簡體中文',
+			click: () => {
+				localStorage.setItem('lang', 'zh')
+				tray.destroy()
+				window.location.reload()
+			}
+		})
 	menu.append(new MenuItem({
 		label: vue.$t('titleBar.switchLanguage'),
 		submenu

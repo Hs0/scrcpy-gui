@@ -39,8 +39,8 @@ export default {
 			popover: '0為預設解析度'
 		},
 		maxFps: {
-			label: '最大FPS',
-			popover: '0為預設FPS'
+			label: '最大FPS幀數',
+			popover: '0為預設FPS幀數'
 		},
 		orientation: {
 			label: '旋轉角度',
@@ -85,7 +85,7 @@ export default {
 			fullscreen: '全螢幕顯示',
 			border: '顯示邊框',
 			touch: '顯示點擊位置',
-			render: '渲染所有幀 會增加延遲',
+			render: '渲染所有幀會增加延遲',
 			screen: '開啟螢幕投影時關閉裝置螢幕',
 			awake: '關閉螢幕鎖定',
 			auto: '自動打開新連接的裝置',
@@ -132,7 +132,7 @@ export default {
 		open: {
 			loading: '正在啟動投影,請稍候...',
 			success: '{name} 已正常關閉',
-			error: `{name} 開啟失敗,請您仔細確認仔細確認:
+			error: `{name} 開啟失敗,請您仔細確認以下項目:
 			<p>1. scrcpy 是否配置正確</p>
 			<p>2. scrcpy-gui 本應用是否設置為以系統管理員身分啟動</p>
 			<p>3. scrcpy 命令行是否可以開啟裝置</p>

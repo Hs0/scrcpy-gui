@@ -17,7 +17,7 @@ export default {
 		source: {
 			label: 'Scrcpy',
 			placeholder: 'Scrcpy資料夾路徑 - 例如: C:\\scrcpy-win64',
-			tooltip: '如果不設定，請將scrcpy資料夾路徑配置到環境變數'
+			tooltip: '如果不設定，請將Scrcpy資料夾路徑配置到環境變數'
 		},
 		title: {
 			label: '視窗標題',
@@ -52,30 +52,30 @@ export default {
 			y: '裁剪位置的縱座標',
 			height: {
 				title: '裁剪尺寸中的高度',
-				content: '高寬為0,則不裁剪'
+				content: '如果高度/寬度為0,則不裁剪'
 			},
 			width: {
 				title: '裁剪尺寸中的寬度',
-				content: '高寬為0,則不裁剪'
+				content: '如果高度/寬度為0,則不裁剪'
 			},
 		},
 		window: {
 			label: '初始化',
 			x: {
 				title: '投影的横座標',
-				content: '橫縱座標為0, 則以預設的位置打開'
+				content: '如果橫/縱座標為0, 則以預設的位置打開'
 			},
 			y: {
 				title: '投影的縱坐標',
-				content: '橫縱座標為0, 則以預設的位置打開'
+				content: '如果橫/縱座標為0, 則以預設的位置打開'
 			},
 			height: {
 				title: '投影畫面的高度',
-				content: '高寬為0,則以預設尺寸顯示'
+				content: '如果高度/寬度為0,則以預設尺寸顯示'
 			},
 			width: {
 				title: '投影畫面的寬度',
-				content: '高寬為0,則以預設尺寸顯示'
+				content: '如果高度/寬度為0,則以預設尺寸顯示'
 			},
 		},
 		other: {
@@ -133,12 +133,12 @@ export default {
 			loading: '正在啟動投影,請稍候...',
 			success: '{name} 已正常關閉',
 			error: `{name} 開啟失敗,請您仔細確認以下項目:
-			<p>1. scrcpy 是否配置正確</p>
-			<p>2. scrcpy-gui 本應用是否設置為以系統管理員身分啟動</p>
-			<p>3. scrcpy 命令行是否可以開啟裝置</p>
+			<p>1. Scrcpy 是否配置正確</p>
+			<p>2. Scrcpy-gui 本程式是否設置為以系統管理員身分啟動</p>
+			<p>3. Scrcpy 命令行是否可以開啟裝置</p>
 			<p>4. 執行\`adb-devices\`命令 查看是否出現裝置</p>
 			<p>5. 手机是否開啟偵錯選項</p>
-			如以上皆配置正常，請您到原作者Github提出issue，以協助解决。`
+			如以上皆配置正常，請您到Github提出issue，以協助解决。`
 		},
 		connect: {
 			error: {
